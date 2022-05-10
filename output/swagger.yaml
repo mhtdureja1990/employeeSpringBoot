@@ -6,8 +6,8 @@
     "version" : "1.0.0-oas3"
   },
   "externalDocs" : {
-    "description" : "ShawBSS-39059",
-    "url" : "https://tms.netcracker.com/browse/SHAWBSS-39059"
+    "description" : "jHello",
+    "url" : "http://google.com"
   },
   "servers" : [ {
     "url" : "http://localhost:8090",
@@ -23,7 +23,7 @@
         "summary" : "Save Employee Information",
         "description" : "API saves the employee to database passed as parameter",
         "externalDocs" : {
-          "url" : "https://tms.netcracker.com/browse/SHAWBSS-39060"
+          "url" : "https://amazon.com"
         },
         "operationId" : "saveEmployee",
         "requestBody" : {
@@ -444,7 +444,10 @@
             "type" : "string"
           },
           "dept" : {
-            "type" : "string"
+            "type" : "string",
+            "externalDocs" : {
+              "url" : "https://google.com"
+            }
           }
         }
       },
